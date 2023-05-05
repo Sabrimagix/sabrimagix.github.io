@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menu{
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 50px;
+    background-color: blue;
+   
+}
+
+.colapse{
+    width: 500px;
+    background-color: pink;
+    border-radius: 10px;
+    top: 60px;
+}
+
+.colapse-on{
+    position: absolute;
+    z-index: 98;
+}
+.colapse-off{
+    display: none;
+}
+
+.container{
+    position: relative;
+    width: 80vw;
+    height:100vh;
+    margin: 0 auto;
+    border: 1px dashed blueviolet;
+    background-color: brown;
+    top: 60px;
+}
