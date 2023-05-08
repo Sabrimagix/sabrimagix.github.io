@@ -39,6 +39,29 @@ body {
     background: -o-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -ms-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
     background: linear-gradient(to right, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#789f0c', endColorstr='#ffe100', GradientType=1 ); 
 }
+.container3{ 
+    width: 847px; 
+    margin-left: 200px; 
+    padding-left: 200px;
+    margin-right: 200px; 
+    padding-right: 200px;
+    background: rgba(120,159,12,1); 
+    background: -moz-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(120,159,12,1)), color-stop(100%, rgba(255,225,0,1))); 
+    background: -webkit-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -o-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -ms-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: linear-gradient(to right, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#789f0c', endColorstr='#ffe100', GradientType=1 ); 
+    
+    /* caja con sombreado(para text seria text-shadow) 
+    En este ejemplo, el primer valor (6px), indica el número de píxeles que se desviará la sombra horizontalmente.
+    El segundo valor (20px), especifica el número de píxeles que se moverá la sombra verticalmente.
+    El tercer valor (10px), es la suavidad que tendrá la sombra (a menor valor más duro será el borde de la sombra).
+    El último valor pertenece al color de la sombra (indicando el nombre de color o su código hexadecimal).
+
+    https://www.html6.es/t13_sombras.html
+    */
+    box-shadow: 6px 20px 10px black;
+}
 
 
 /*https://www.youtube.com/watch?v=E-Npbuksob0*/
