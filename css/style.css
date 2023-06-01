@@ -1,0 +1,64 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    /* background: rgb(43, 43, 154);
+    background: linear-gradient(to right, #7ec9f5, #3957ed); */
+    /* background: -webkit-linear-gradient(0deg, rgb(84, 84, 98), rgb(21, 21, 150)); */
+
+}
+/* https://www.cadabullos.com/blog/gradientes-chulos-para-usar-disenos-2022 */
+.container{ 
+    width: 80vw;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#7ec9f5+0,3957ed+100 */ 
+    background: #7ec9f5; 
+    /* Old browsers */ 
+    background: -moz-linear-gradient(left, #7ec9f5 0%, #3957ed 100%); 
+    /* FF3.6-15 */ 
+    background: -webkit-linear-gradient(left, #7ec9f5 0%,#3957ed 100%);
+    /* Chrome10-25,Safari5.1-6 */ 
+    background: linear-gradient(to right, #7ec9f5 0%,#3957ed 100%); 
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ec9f5', endColorstr='#3957ed',GradientType=1 ); /* IE6-9 */ }
+
+.container2{ 
+    width: 80vw;
+    margin: 0 auto;
+    background: rgba(120,159,12,1); 
+    background: -moz-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(120,159,12,1)), color-stop(100%, rgba(255,225,0,1))); 
+    background: -webkit-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -o-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -ms-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: linear-gradient(to right, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#789f0c', endColorstr='#ffe100', GradientType=1 ); 
+}
+
+.container3{
+    width: 847px; 
+    margin-left: 200px; 
+    padding-left: 200px;
+    margin-right: 200px; 
+    padding-right: 200px;
+    background: rgba(120,159,12,1); 
+    background: -moz-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(120,159,12,1)), color-stop(100%, rgba(255,225,0,1))); 
+    background: -webkit-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: -o-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); background: -ms-linear-gradient(left, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); 
+    background: linear-gradient(to right, rgba(120,159,12,1) 0%, rgba(255,225,0,1) 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#789f0c', endColorstr='#ffe100', GradientType=1 ); 
+    /* caja con sombreado(para text seria text-shadow) */
+    box-shadow: 6px 20px 10px black ;
+}
+
+
+/*https://www.youtube.com/watch?v=E-Npbuksob0*/
+
+body::-webkit-scrollbar{
+    width: 10px;
+    background: rgb(0,0,0);
+}
+
+body::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 0, 1);
+    border-radius: 10px;
+    border-right: 2px solid rgb(255,225,0);
+}
